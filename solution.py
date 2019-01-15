@@ -90,7 +90,7 @@ model.fit(X_train, y_train, batch_size=20, epochs=35)
 scores = model.evaluate(X_test, y_test)
 
 
-# solution with image augmentation
+# MY SOLUTION
 
 from keras.layers import Conv2D, Dense, MaxPool2D, Flatten, Dropout
 from keras.models import Sequential
